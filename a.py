@@ -35,7 +35,7 @@ class Google:
         sleep(1)
         self.driver.find_element_by_xpath ('//*[@contenteditable=""]').send_keys (u'\ue007')
         sleep(2)
-        print ('comment sucess- lonely pwoliyane')
+        print ('Hence proven aimbot g4y')
         sleep(15)
 
 
