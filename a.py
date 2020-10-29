@@ -7,7 +7,7 @@ class Google:
 
     def __init__(self, username, password):
         self.driver = webdriver.Chrome (
-            'C:/Users/PALEKKAT/Desktop/Lonely 2.0/YT-Comment-Bot-master/YT-Comment-Bot-master/chromedriver.exe')
+            'Link of chromedriver')
         self.driver.get ('https://stackoverflow.com/users/signup')
         sleep (3)
         self.driver.find_element_by_xpath ('//*[@id="openid-buttons"]/button[1]').click ()
